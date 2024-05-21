@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montaga&display=swap');
+
+
+:root {
+  --color1: #011802;
+  --color2: #C1B3C9;
+  --color3: #6B0F1A;
+  --primaryfont: "Didact Gothic", sans serif;
+}    
+
 body {
-    background: rgb(89, 255, 0);
+    font-family: "Didact Gothic";
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+h1 {
+    color: var(--color2);
+    text-align: right;
+    font-family: "Montaga";
+  }
+  
+  h2 {
+    color: var(--color2);
+    font-family: "Montaga";
+    padding: 12px;
+  }
+  
+  li {
+    color: var(--color2);
+  }
+  
+  p {
+    color: var(--color3);
+    padding: 12px;
+  }
+  
+  blockquote {
+    border-left: solid 10px var(--color2);
+    padding-left: 15px;
+    Padding-top: 4px;
+    color:  var(--color3);
+  }
+  
+  main { 
+  width: 34%;
+  margin: 0 auto 0 auto; 
+  padding: 53px;
+  background: #ffffff54
+  
+  }
+  
+  span {
+    background: var(--color2); 
+    margin: 15px;
+    padding: 15px; 
+    Font-size: 2rem;
+    float: left;
+  }
+  
+  main {
+    position: relative;
+  }
+  
+  h1 {
+    background: var(--color1);
+    top: 0; 
+    right: -140px;
+    position: absolute;
+  }
